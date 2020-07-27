@@ -1,0 +1,244 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3731202100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to be there in the fb page",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_be_there_in_the_fb_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-01T18:37:52.872Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4627037300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2194839000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution3()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To verify the login with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-in-fb-application;to-verify-the-login-with-valid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 86100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 79500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 411496600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has to fill username and password",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_fill_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Shanthi@gmail.com",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Bindu@gmail.com",
+                  "23456789234567"
+                ]
+              },
+              {
+                "cells": [
+                  "Kowsy@gamil.com",
+                  "123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151231800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "LoginPageSteps.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to navigate to homepage",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_navigate_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6047607700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to be there in the fb page",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_be_there_in_the_fb_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-01T18:38:04.025Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23269400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3316644500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution1()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To verify the login with invalid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-in-fb-application;to-verify-the-login-with-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 82000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1183074900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to fill invalid username and invalid password and clicks login button",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_fill_invalid_username_and_invalid_password_and_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 475000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should not able to navigate to homepage",
+            "match": {
+              "location": "LoginPageSteps.user_should_not_able_to_navigate_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality in fb application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-in-fb-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": []
+  }
+]
